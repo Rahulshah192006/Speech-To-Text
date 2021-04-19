@@ -1,0 +1,43 @@
+html {
+  font-size: 20px;
+}
+body {
+  background-color: rgb(187, 83, 45);
+  font-family: "helvetica neue";
+  font-weight: 100;
+  font-size: 50px;
+}
+.words {
+  max-width: 500px;
+  margin: 50px auto;
+  background:salmon;
+  border-radius: 10px;
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem 1rem 5rem;
+  background: -webkit-gradient(
+      linear,
+      0 0,
+      0 100%,
+      from(#d9eaf3),
+      color-stop(4%, #fff)
+    )
+    0 4px;
+  background-size: 100% 3rem;
+  position: absolute;
+  line-height: 3rem;
+}
+
+p {
+  margin: 0 0 3rem;
+}
+
+.words:before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  top: 1px;
+  left: 30px;
+  bottom: 1px;
+  border: 5px solid;
+  border-color: transparent black;
+}
